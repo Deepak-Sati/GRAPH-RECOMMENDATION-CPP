@@ -1,4 +1,4 @@
-# GRAPH---RECOMMENDATION---C
+# GRAPH-RECOMMENDATION-C
 
 This is basically a graph based recommendation system .
 
