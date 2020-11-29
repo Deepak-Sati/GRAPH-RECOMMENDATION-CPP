@@ -10,3 +10,4 @@ Basically , directed edges are made between neighbours A -> B indicating A knows
 
 All neighbours get their recommended partner in the society with whom they can group in.
 
+Rating(personality marks) are also allocated to each person so that only person with higher rating get recommended
