@@ -202,6 +202,11 @@ void printNeighbours(int id)
 
 int main()
 {
+    printf(" \n Date :%s\n \n ", __DATE__ );
+
+    printf(" \n Time :%s\n \n ", __TIME__ );
+
+    printf(" \n Line :%d\n \n \n \n ", __LINE__ );
 
 	printf(" |-|---------------  GRAPH BASED RECOMMENDATION SYSYTEM  ---------------|-| \n\n");
 
@@ -228,7 +233,9 @@ int main()
 	scanf("%d",&edges);
 
 	printf(" \nNow Enter the 2 person id such that there is directed edge between them \n");
+	
     // 12 by default
+    
     for(int i = 1 ; i <= edges ; i++)
     {
         int from, to;
@@ -238,20 +245,20 @@ int main()
 
     /*
 
-	edge(1,4);
-	edge(1,2);
-	edge(2,1);
-	edge(2,2);
-	edge(2,3);
-	edge(2,4);
-	edge(2,5);
-	edge(2,6);
-	edge(3,5);
-	edge(3,6);
-	edge(3,11);
-	edge(3,12);
+	1 4
+	1 2
+	2 1
+	2 2
+	2 3
+	2 4
+	2 5
+	2 6
+	3 5
+	3 6
+	3 11
+	3 12
 
-	*/
+   */
 
     printf("\n|-|---------------  NEIGHBOUR OF PEOPLE IN SOCIETY ARE  ---------------|-| \n\n");
 
