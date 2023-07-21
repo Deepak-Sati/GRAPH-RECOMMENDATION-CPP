@@ -1,13 +1,19 @@
 # GRAPH-RECOMMENDATION-C
 
-This is basically a graph based recommendation system .
+graph based recommendation system 
 
-If neighbour A knows neighbour B and neighbour B knows neighbour C
+neighbour A knows neighbour B 
+neighbour B knows neighbour C
+neighbour C knows neighbour D
 
-then a transitive relation is made between A and C .
+neighbour D knows neighbour E 
+neighbour E knows neighbour F
+neighbour F knows neighbour A
 
-Basically , directed edges are made between neighbours A -> B indicating A knows B and vice versa is not true.
+directed edges ( B -> E )
+directed edges ( F -> C )
+directed edges ( D -> A )
 
-All neighbours get their recommended partner in the society with whom they can group in.
+All neighbours get their recommended partner POINTS in the society with whom they can group in.
 
-Rating(personality marks) are also allocated to each person so that only person with higher rating get recommended
+Rating(personality marks) allocated FOR higher recommendation
